@@ -26,7 +26,7 @@ const WelcomeSection = () => {
               </h2>
               
               <p className="text-gray-600 text-lg mb-6 leading-relaxed text-justify">
-                Rendelőnk Székesfehérváron, a Budai út 304. szám alatt található. Célunk, hogy pácienseink számára a lehető legkisebb kellemetlenséggel járó vizsgálati módszereket biztosítsuk.
+                Rendelőnk Székesfehérváron, a Budai út 316. szám alatt található. Célunk, hogy pácienseink számára a lehető legkisebb kellemetlenséggel járó vizsgálati módszereket biztosítsuk.
               </p>
               
               <p className="text-gray-600 text-lg mb-8 leading-relaxed text-justify">
@@ -69,7 +69,7 @@ const WelcomeSection = () => {
             
             {/* Info kártya */}
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl border-t-4 border-blue-600 hidden md:block max-w-xs">
-              <p className="font-bold text-gray-900 text-lg">Dr. Sike Róbert</p>
+              <p className="font-bold text-gray-900 text-lg">Dr. Med. Habil. Madácsy László PhD</p>
               <p className="text-gray-500 text-sm">belgyógyász, gasztroenterológus főorvos</p>
             </div>
           </div>

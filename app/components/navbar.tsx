@@ -74,7 +74,7 @@ const Navbar = () => {
             
             <a href="tel:+36205230352" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-medium transition-transform transform hover:scale-105 shadow-md">
               <Phone size={16} />
-              <span>+36 20 523 0352</span>
+              <span>+36 22 999 640</span>
             </a>
           </div>
 
@@ -111,7 +111,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <a href="tel:+36205230352" className="mt-4 w-full flex justify-center items-center gap-2 bg-blue-600 text-white py-3 rounded-lg font-bold">
-                <Phone size={18} /> Hívás: +36 20 523 0352
+                <Phone size={18} /> Hívás: +36 22 999 640
               </a>
             </div>
           </motion.div>

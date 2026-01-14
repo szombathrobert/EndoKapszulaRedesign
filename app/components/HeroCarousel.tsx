@@ -55,7 +55,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className="relative w-full h-[600px] md:h-[800px] overflow-hidden bg-gray-900">
+    <div className="relative w-full h-[720px] md:h-[800px] overflow-hidden bg-gray-900">
       <AnimatePresence mode='wait'>
         <motion.div
           key={currentIndex}
@@ -102,13 +102,13 @@ const HeroCarousel = () => {
         onClick={prevSlide}
         className="absolute left-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm transition-colors z-20 group"
       >
-        <ChevronLeft size={40} className="group-hover:-translate-x-1 transition-transform" />
+        <ChevronLeft size={20} className="group-hover:-translate-x-1 transition-transform" />
       </button>
       <button 
         onClick={nextSlide}
         className="absolute right-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm transition-colors z-20 group"
       >
-        <ChevronRight size={40} className="group-hover:translate-x-1 transition-transform" />
+        <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
       </button>
 
       {/* Pöttyök alul */}
